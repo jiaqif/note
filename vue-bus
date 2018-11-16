@@ -10,8 +10,8 @@ Vue 推荐使用一个全局事件中心来分发和管理应用内的所有事�
 
 vue-bus 提供了一个全局事件中心，并将其注入每一个组件，你可以像使用内置事件流一样方便的使用全局事件。
 
-安装
-$ npm install vue-bus
+### 安装
+`$ npm install vue-bus`
 如果在一个模块化工程中使用它，必须要通过 Vue.use() 明确地安装 vue-bus：
 
 import Vue from 'vue';
